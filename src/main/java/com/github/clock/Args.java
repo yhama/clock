@@ -25,11 +25,18 @@ public class Args {
 	
 	@Option(name="-lc", aliases="--long-hand-color", usage="change long hand color.")
 			private String longHandColor = "#ff0000";
-			
+
+	@Option(name="-sc", aliases="--short-hand-color", usage="change short hand color.")
+	private String shortHandColor = "#ff0000";
+	
 	public String getLongHandColor(){
 		return longHandColor;
 	}
 
+	public String getShortHandColor(){
+		return longHandColor;
+	}
+	
     public boolean isRunningMode(){
         return !isShowVersion() && !isShowHelp();
     }
