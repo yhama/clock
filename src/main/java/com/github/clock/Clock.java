@@ -7,7 +7,8 @@ import java.util.TimeZone;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class Clock {
+public class Clock 
+{
     private List<UpdateObserver> observers = new ArrayList<>();
     private boolean running = false;
     private int hour;
