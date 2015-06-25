@@ -5,7 +5,8 @@ import org.kohsuke.args4j.CmdLineParser;
 
 import com.github.clock.swing.ClockViewer;
 
-public class Main{
+public class Main
+{
     public Main(String[] arguments) throws CmdLineException{
         Args args = parseOptions(arguments);
 
