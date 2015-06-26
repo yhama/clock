@@ -1,5 +1,5 @@
 package com.github.clock;
-;
+
 import org.kohsuke.args4j.CmdLineException;
 import org.kohsuke.args4j.CmdLineParser;
 
